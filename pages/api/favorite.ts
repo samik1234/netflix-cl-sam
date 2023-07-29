@@ -16,8 +16,8 @@ export default async function handler(
 
       const existingMovie = await prismadb.movie.findUnique({
         where: {
-          id: movieId,
-        },
+          id: movieId
+        }
       });
 
       if (!existingMovie) {
@@ -30,7 +30,7 @@ export default async function handler(
         },
         data: {
           favoriteIds: {
-            push: movieId,
+            push: movieId
           },
         },
       });
@@ -43,8 +43,8 @@ export default async function handler(
 
       const existingMovie = await prismadb.movie.findUnique({
         where: {
-          id: movieId,
-        },
+          id: movieId
+        }
       });
 
       if (!existingMovie) {
