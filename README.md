@@ -1,6 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+
+
+
+
+
+
 ![netty](https://github.com/samik1234/netflix-cl-sam/assets/82882143/af5b6530-384c-4803-9270-ab38224c4a39)
+
+
 
 
 
